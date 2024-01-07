@@ -38,7 +38,7 @@ Embarking on this cosmic journey requires a harmonious installation of the cosmi
    With your virtual universe charged, run the cosmic script:
 
    ```bash
-   python main_script.py
+   python app.py
    ```
 
    Witness the emergence of text, a cosmic dance influenced by the very fabric of the multiverse.
