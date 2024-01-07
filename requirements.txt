@@ -1,0 +1,5 @@
+transformers==4.36.2
+torch==1.10.0
+spacy==3.1.4
+nltk==3.6.5
+chunkipy==1.0.0
