@@ -172,13 +172,13 @@ def main():
   chunks = processor.split_into_chunks(text)
 
   with concurrent.futures.ThreadPoolExecutor() as executor:
-      # Submit tasks to ThreadPoolExecutor for parallel execution
+
       futures = {executor.submit(processor.generate_text, processor.process_text(chunk, sentiment=f"sentiment_{i}")): chunk for i, chunk in enumerate(chunks)}
 
       for future in concurrent.futures.as_completed(futures):
           chunk = futures[future]
           try:
-              # Retrieve the result of the completed future
+
               generated_text = future.result()
               print(f"Chunk: {chunk}\nGenerated: {generated_text}\n")
           except Exception as e:
