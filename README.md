@@ -9,9 +9,6 @@ Embarking on this cosmic journey requires a harmonious installation of the cosmi
 1. **Install Python:**
    Navigate to the [official Python website](https://www.python.org/downloads/) and download the latest version of Python. Install it with the cosmic energy of the command:
 
-   ```bash
-   python -m ensurepip --default-pip
-   ```
 
 2. **Activate the Virtual Environment:**
    Create a virtual universe to encapsulate the dependencies. In the cosmic command realm:
