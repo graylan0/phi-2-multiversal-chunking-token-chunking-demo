@@ -97,7 +97,7 @@ class TextProcessor:
    def split_into_chunks(self, text):
        try:
            # Create a TextChunker object with chunk size of 300 tokens and overlap percentage of 0.1
-           text_chunker = TextChunker(chunk_size=1200, tokens=True, overlap_percent=0.1)
+           text_chunker = TextChunker(chunk_size=300, tokens=True, overlap_percent=5)
            chunks = text_chunker.chunk(text)
            return chunks
        except Exception as e:
@@ -168,7 +168,7 @@ class TextProcessor:
 def main():
   processor = TextProcessor()
 
-  text = " can you speak to us about multiverseal internet systems and designing freedom with them?"
+  text = " can you speak to us about multiverseal internet systems and orcawhales and designing freedom with them?"
   chunks = processor.split_into_chunks(text)
 
   with concurrent.futures.ThreadPoolExecutor() as executor:
