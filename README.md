@@ -7,7 +7,7 @@ Welcome to the Multiversal Text Generation project, an odyssey into the cosmos o
 Embarking on this cosmic journey requires a harmonious installation of the cosmic components. Follow the steps below to attune your system:
 
 1. **Install Python:**
-   Navigate to the [official Python website](https://www.python.org/downloads/) and download the latest version of Python. Install it with the cosmic energy of the command:
+   Navigate to the [official Python website](https://www.python.org/downloads/) and download the latest version of Python. 
 
 
 2. **Activate the Virtual Environment:**
